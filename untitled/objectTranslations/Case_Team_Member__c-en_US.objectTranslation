@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Team Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Team Members</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Team --></label>
+        <name>Case_Team__c</name>
+        <relationshipLabel><!-- Case Team Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Team Member --></label>
+        <name>External_Team_Member__c</name>
+        <relationshipLabel><!-- Case Team Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Team Member --></label>
+        <name>Internal_Team_Member__c</name>
+        <relationshipLabel><!-- Case Team Members --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description><!-- Person external to the firm --></description>
+        <label><!-- External --></label>
+        <name>External</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A case team member belonging to the firm --></description>
+        <label><!-- Internal --></label>
+        <name>Internal</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

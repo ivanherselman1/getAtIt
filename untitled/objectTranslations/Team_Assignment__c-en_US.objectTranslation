@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Team Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Team Assignments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Team Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hearing --></label>
+        <name>Hearing__c</name>
+        <relationshipLabel><!-- Team Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Matter --></label>
+        <name>Matter__c</name>
+        <relationshipLabel><!-- Team Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <relationshipLabel><!-- Team Assignments --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description><!-- The assignment of a team to a case --></description>
+        <label><!-- Case Team Assignment --></label>
+        <name>Case_Team_Assignment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The assignment of a team to a hearibng --></description>
+        <label><!-- Hearing Team Assignment --></label>
+        <name>Hearing_Team_Assignment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The assignment of a team to a matter --></description>
+        <label><!-- Matter Team Assignement --></label>
+        <name>Matter_Team_Assignement</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

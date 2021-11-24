@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brief Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brief Assignments</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- The assignment of a brief to an individual external to the firm. --></description>
+        <label><!-- External : Individual --></label>
+        <name>External_Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The assignment of a brief to an internal individual --></description>
+        <label><!-- Internal : Individual --></label>
+        <name>Internal_Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The assignment of a brief to team --></description>
+        <label><!-- Team Assignment --></label>
+        <name>Team_Assignment</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

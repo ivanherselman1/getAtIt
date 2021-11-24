@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ivan@exah.co.za</contactEmail>
+    <label>restTest</label>
+    <oauthConfig>
+        <callbackUrl>https://ivandevacc-dev-ed.lightning.force.com/lightning/setup/NavigationMenus/page?address=%2Fapp%2Fmgmt%2Fforceconnectedapps%2FforceAppEdit.apexp%3FretURL%3D%252Fsetup%252FNavigationMenus%252Fhome</callbackUrl>
+        <consumerKey>3MVG9sh10GGnD4DvvrhUNQy2sOOaYEbNQWmFnVb7nO9PPp5eOzpEi8LkWZKxYpT0K50BM.2dz7bjQ7ud8CD1_</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>true</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+        <scopes>Pardot</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

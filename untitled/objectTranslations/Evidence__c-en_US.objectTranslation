@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Evidence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Evidence</value>
+    </caseValues>
+    <fields>
+        <label><!-- Document --></label>
+        <name>Document__c</name>
+        <relationshipLabel><!-- Evidence --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Witness --></label>
+        <name>Witness__c</name>
+        <relationshipLabel><!-- Evidence --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

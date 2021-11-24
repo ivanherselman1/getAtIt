@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WebHookTest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>WebHooktests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Claim_Number --></label>
+        <name>Claim_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

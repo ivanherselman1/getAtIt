@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <fields>
+        <fullName>OrderHeaderId__c</fullName>
+        <externalId>false</externalId>
+        <label>OrderHeaderId</label>
+        <length>30</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <indexes>
+        <fullName>First</fullName>
+        <fields>
+            <name>OrderHeaderId__c</name>
+            <sortDirection>DESC</sortDirection>
+        </fields>
+        <label>First</label>
+    </indexes>
+    <label>OrderHeader</label>
+    <pluralLabel>OrderHeaders</pluralLabel>
+</CustomObject>

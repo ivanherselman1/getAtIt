@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brief</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Briefs</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- A brief related to a case --></description>
+        <label><!-- Case Brief --></label>
+        <name>Case_Brief</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A brief related to a hearing --></description>
+        <label><!-- Hearing Brief --></label>
+        <name>Hearing_Brief</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A brief relating to a matter --></description>
+        <label><!-- Matter Brief --></label>
+        <name>Matter_Brief</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
